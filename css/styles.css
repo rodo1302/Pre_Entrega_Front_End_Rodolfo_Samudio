@@ -129,13 +129,13 @@ footer {
 
 .contenedor-inicio {
   background-color: var(--color-verde-claro);
-  padding: 60px 24px;
+  padding: 6rem 2.4rem;
   border-bottom: 1px solid var(--color-verde-sabio);
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  gap: 4rem;
+  gap: 0.4rem;
   min-height: 100vh;
   width: 100%;
 }
@@ -412,3 +412,23 @@ footer {
 /* -------------------------------------------------------------------------- */
 /*                                 Media Query                                */
 /* -------------------------------------------------------------------------- */
+
+@media screen and (max-width: 48rem) {
+  .imagen-inicio {
+    display: none;
+  }
+  header {
+    flex-direction: column;
+  }
+  .contenedor-inicio {
+    padding: 10rem 2.4rem;
+    gap: 0.4rem;
+    min-height: 60vh;
+  }
+  .contenedor-productos {
+    padding-top: 10rem;
+  }
+  .contenedor-reseñas {
+    padding: 10rem 0;
+  }
+}
