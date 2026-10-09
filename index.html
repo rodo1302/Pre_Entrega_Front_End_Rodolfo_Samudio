@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Font Awesome para fuentes -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome para íconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Nuestro css interno va como ultimo link -->
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>Olivo Libreria</title>
+</head>
+
+<body>
+  <header>
+    <div class="contenedor-logo">
+      <a href="#inicio" class="logo">
+        <i class="fa-solid fa-seedling"></i>
+        <span>Olivo Librería</span>
+      </a>
+    </div>
+    <nav class="header-nav">
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="./pages/contacto.html">Contacto</a></li>
+        <li><a href="#reseñas">Reseñas</a></li>
+        <li><a href="./pages/carrito.html">Carrito</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="inicio" class="contenedor-inicio">
+      <div class="intro-inicio">
+        <h1 class="titulo-inicio tx-titulo">Inspiración natural para tus proyectos</h1>
+        <p class="subtitulo-inicio">Descubrí nuestra selección artesanal de agendas, papelería fina y útiles de
+          estudio
+          en
+          tonos tierra y naturaleza.</p>
+        <a href="#productos" class="btn btn-inicio">Ver Catálogo</a>
+      </div>
+      <img src="./img/tienda.png" alt="teinda" class="imagen-inicio">
+    </section>
+
+    <section id="productos" class="contenedor-productos">
+      <h2 class="titulo-productos tx-titulo">Nuestros Productos</h2>
+      <div class="contenedor-tarjetas">
+        <article class="tarjeta">
+          <img src="./img/acuarela.jpg" alt="acuarela">
+          <h3 class="tx-titulo">Set Acuarelas Botánicas 12 Colores</h3>
+          <p>$20.000.-</p>
+          <button class="btn">Agregar al Carrito</button>
+        </article>
+        <article class="tarjeta">
+          <img src="./img/cuaderno.png" alt="cuaderno">
+          <h3 class="tx-titulo">Cuaderno Botánico 120 Hojas</h3>
+          <p>$15.000.-</p>
+          <button class="btn">Agregar al Carrito</button>
+        </article>
+        <article class="tarjeta">
+          <img src="./img/planificador.jpg" alt="planificador">
+          <h3 class="tx-titulo">Planificador Botánico 12 Meses</h3>
+          <p>$25.000.-</p>
+          <button class="btn">Agregar al Carrito</button>
+        </article>
+        <article class="tarjeta">
+          <img src="./img/pluma-gel.jpg" alt="pluma-gel">
+          <h3 class="tx-titulo">Pluma de Tinta Gel Botánica</h3>
+          <p>$10.000.-</p>
+          <button class="btn">Agregar al Carrito</button>
+        </article>
+      </div>
+    </section>
+
+    <section id="reseñas" class="contenedor-reseñas">
+      <div class="titulo-reseñas">
+        <h2 class="tx-titulo">Lo que dicen nuestros clientes 🌿</h2>
+        <p>
+          Experiencias reales de quienes eligen la papelería botánica.
+        </p>
+      </div>
+
+      <div class="grilla-reseñas">
+
+        <div class="tarjeta-reseña">
+          <div>
+            <div class="estrellas-reseña">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="texto-reseña">"La calidad del papel de los cuadernos es increíble, no traspasa la tinta. Además el
+              empaque ecológico vino con un detalle hermoso."</p>
+          </div>
+          <div class="autor-reseña">
+            <div class="autor-avatar">MC</div>
+            <div class="autor-info">
+              <h5 class="tx-titulo">Mariana Costa</h5>
+              <span>Cliente Verificada • Compró Cuaderno A5</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tarjeta-reseña">
+          <div>
+            <div class="estrellas-reseña">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="texto-reseña">"Los tonos de los marcadores son tal cual las fotos. El pedido llegó súper rápido
+              y
+              muy
+              bien embalado."</p>
+          </div>
+          <div class="autor-reseña">
+            <div class="autor-avatar">LR</div>
+            <div class="autor-info">
+              <h5 class="tx-titulo">Lucas Rossi</h5>
+              <span>Cliente Verificado • Compró Set Marcadores</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tarjeta-reseña">
+          <div>
+            <div class="estrellas-reseña">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="texto-reseña">"Me encantó la estética botánica de Olivo. El planificador me ayudó muchísimo a
+              organizar mi rutina semanal."</p>
+          </div>
+          <div class="autor-reseña">
+            <div class="autor-avatar">SG</div>
+            <div class="autor-info">
+              <h5 class="tx-titulo">Sofía Gómez</h5>
+              <span>Cliente Verificada • Compró Planificador</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="contenedor-logo">
+      <a href="#" class="logo">
+        <i class="fa-solid fa-seedling"></i>
+        <span>Olivo Librería</span>
+      </a>
+    </div>
+    <nav class="footer-nav">
+      <ul>
+        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+
+</html>
